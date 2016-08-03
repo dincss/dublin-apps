@@ -1,0 +1,691 @@
+body {
+	background: #E7E8EA;
+}
+* {
+	transition: all 1s;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+.text-center {
+	text-align: center;
+}
+.no-gutter {
+	padding-left: 0;
+	padding-right: 0;
+}
+.hover-image {
+	position: relative;
+	display: inline-block;
+	line-height: 0;
+}
+
+.hover-image:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+
+.hover-image:hover:after {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+/*************************/
+/*************************/
+/*************************/
+/**********1st-page*********/
+/*************************/
+/*************************/
+/*************************/
+
+
+/*************************/
+/**********HEADER*********/
+/*************************/
+header {
+	background: url('../images/bg_blue.png')  no-repeat ;
+	background-size: cover; 
+	color: #fff;
+	
+	position: relative;
+}
+header h2 {
+  font-size: 39px;
+  font-family: "FlareLightGothic", serif;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  margin-top: 30px;
+}
+header h3 {
+  font-size: 17px;
+  font-family: "FranklinGothic-Book";
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  margin-left: 45px;
+  display: block;
+}
+header .logo {
+	float: left;
+	margin-top: 35px;
+	margin-right: 10px;
+}
+
+
+.navbar-default {
+	background: none;
+	border: none;
+}
+.navbar-brand {
+	padding: 0;
+}
+.navbar-toggle {
+	margin-top: 50px;
+	margin-right: 0;
+}
+.navbar-collapse {
+	border:none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+header ul {
+		margin-bottom: 0;
+		float: right;
+		padding-top: 45px;	
+		
+}
+header ul li {
+	display: inline-block;
+	color: #fff;
+	margin-left: 30px;
+	text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a{
+	padding: 10px 14px;
+  	font-size: 17px;
+  	font-family: "Colaborate-Light" sans-serif;;
+  	color: rgb(215, 215, 227);
+  	border-radius: 3px;
+  	padding: 10px 14px;
+  	background: transparent;
+
+}
+.navbar-default .navbar-nav > li > a:hover {
+	text-decoration: none;
+	padding: 10px 14px;
+	background: #fff;
+	border-radius: 3px;
+}
+header ul li:last-child a{
+	margin-right: 50px;
+}
+
+
+
+header h1 {
+  font-size: 45px;
+  font-family: "ChunkFivePrint";
+  color: rgb(231, 232, 234);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 104px;
+}
+header h4 {
+  font-size: 39px;
+  font-family: "ChunkFivePrint";
+  color: rgb(215, 215, 227);
+  margin-top: 16px;
+}
+header h5 {
+  font-size: 23px;
+  font-family: "Colaborate-Light";
+  color: rgb(231, 232, 234);
+  text-align: right;
+}
+
+
+.dublin-2 {
+	text-align: center;
+
+}
+.dublin img {
+	float: right;
+}
+.btn-primary {
+  font-size: 23px;
+  font-family: "Colaborate-Light" sans-serif;;
+  color: rgb(255, 255, 255);
+  margin-top: 31px;
+  padding: 14px 35px;
+
+}
+.dublin {
+	text-align: right;
+}
+
+.dublin-3 img{
+	position: absolute;
+	left: 120px;
+	top: 290px;
+
+}
+.dublin-2 img {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	z-index: 100;
+}
+
+.for_bottom_menu {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 75px;
+}
+
+/*************************/
+/**********miniart*********/
+/*************************/
+
+.miniart {
+	margin-top: 40px;
+}
+.miniart  a {
+	display: block;
+	background: -moz-linear-gradient(89deg, rgb(255, 255, 255) 44%, rgb(200, 216, 207) 100%);
+	background-size: cover;
+	padding: 3px;
+	border-radius: 8px;
+	background-color: #fff;
+	height: 155px;
+	border: 3px solid #fff;
+	
+ }
+ .miniart  a.grad {
+ 	text-align: right;
+ }
+.miniart  a p {
+	  font-size: 19px;
+  font-family: "Colaborate-Light" sans-serif;;
+  color: rgb(67, 67, 83);
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+
+}
+.miniart a .e {
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+.miniart a.ip_3 {
+	padding-top: 23px;
+}
+.miniart a.ip_4 {
+	padding-top: 13px;
+}
+.miniart .new_sale {
+	position: absolute;
+	top: 3px;
+}
+
+
+
+/*************************/
+/**********features*********/
+/*************************/
+.features {
+	margin-top: 48px;
+	margin-bottom: 56px;
+}
+.features img {
+	float: left;
+	margin-right: 9px;
+}
+.features h3 {
+  font-size: 25px;
+  font-family: "Colaborate-Light " sans-serif;;
+  color: rgb(80, 80, 80);
+}
+.features h4 {
+  font-size: 15px;
+  font-family: "Colaborate-Light " sans-serif;;
+  color: rgb(95, 115, 144);
+  margin-bottom: 20px;
+}
+.features p {
+  font-size: 14px;
+  font-family: "Colaborate";
+  color: rgb(80, 80, 80);
+}
+.first-col {
+	padding-left: 16px;
+}
+
+.fsfs {
+	color: 
+}
+
+
+
+/*************************/
+/**********sliders*********/
+/*************************/
+
+
+.sliders h6, .sliders p {
+  font-size: 16px;
+  font-family: "Colaborate-Light " sans-serif;;
+  color: rgb(130, 129, 129);
+  text-align: center;
+
+}
+.sliders .col-md-12 {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.sliders .bgk {
+	background: url('../images/news bg.png')  no-repeat ;
+	background-size: cover; 
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+/*************************/
+/**********read_more*********/
+/*************************/
+.read_more {
+	margin-top: 60px;
+}
+.read_more h2 {
+  font-size: 27px;
+  font-family: "Colaborate-Light " sans-serif;;
+  color: rgb(80, 80, 80);
+}
+.read_more h3 {
+  font-size: 15px;
+  font-family: "Colaborate-Light " sans-serif;;
+  color: rgb(95, 115, 144);
+}
+.im {
+	padding-top: 50px;
+}
+.im img {
+	float: left;
+	margin-right: 10px;
+	margin-top: 4px;
+}
+
+.read_more .im p{
+  font-size: 15px;
+  font-family: "Colaborate-Light " sans-serif;;
+  color: rgb(130, 129, 129);
+  margin-bottom: 20px;
+}
+.read_more .im a {
+  font-size: 19px;
+  font-family: "Colaborate-Light " sans-serif;;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 0;
+}
+
+.read_more .btn-primary {
+	padding: 20px 20px;
+	border-radius: 5px;
+	border: none;
+	margin-left: 26px;
+}
+.rest-text {
+	margin-top: 58px;
+}
+.rest-text img {
+	float: left;
+	margin-right: 10px;
+	margin-top: 14px;
+}
+.read_more .rest-text p {
+	font-size: 15px;
+  	font-family: "Colaborate-Light " sans-serif;;
+  	color: rgb(130, 129, 129);
+	border-top: 1px solid #D7D8DA;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.read_more .rest-text p:last-child  {
+	border-bottom: 1px solid #D7D8DA;
+}
+
+
+
+
+/*************************/
+/**********footer*********/
+/*************************/
+
+footer {
+	background: url('../images/footerbg1.png') no-repeat center center;
+	background-size: cover;	
+	padding-top: 30px;
+	padding-bottom: 12px;
+}
+footer .pos {
+	margin-left: 0;
+	margin-right: 0;
+}
+footer .twitts {
+	float: left;
+}
+footer .first-row p {
+  font-size: 16px;
+  font-family: "Colaborate-Light"  sans-serif;;
+  color: rgba(255, 255, 255, 0.471);
+  margin-left: 37px;
+}
+footer .first-row h6 {
+  font-size: 15px;
+  font-family: "Colaborate-Light"  sans-serif;;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+  text-align: right;
+}
+
+footer .second-row h2 {
+  font-size: 25px;
+  font-family: "Colaborate-Light"  sans-serif;;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+}
+footer .second-row p {
+  font-size: 14px;
+  font-family: "Colaborate-Light"  sans-serif;;
+  color: rgba(255, 255, 255, 0.549);
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+
+footer .form-inline .form-control {
+	width: 213px;
+	height: 28px;
+	background: #232338;
+	font-family: "Colaborate-Light" sans-serif;
+	color: rgba(231, 232, 234, 0.2);
+	font-size: 14px;
+	border: 1px solid #000;
+	border-right: 1px solid #353535;
+	border-bottom: 1px solid #353535; 
+	margin-right: 15px;
+
+}
+footer .btn-default {
+ 	font-size: 14px;
+ 	font-family: "Colaborate-Light" sans-serif;
+ 	color: rgb(54, 54, 72);
+ 	width: 85px;
+  	height: 27px;
+	padding: 0;
+}
+footer .btn-default:hover {
+	background: #5675B9;
+	color: #fff;
+	box-shadow: 63px 81px 64px -100px #000000 inset;
+	border: 1px solid #000;
+	border-right: 1px solid #353535;
+	border-bottom: 1px solid #353535; 
+}
+footer .contact-form h2 {
+	margin-bottom: 16px;
+}
+footer .contact-form input {
+	background: #232338;
+	font-family: "Colaborate-Light" sans-serif;;
+	color: rgba(231, 232, 234, 0.2);
+	font-size: 14px;
+	border: 1px solid #000;
+	border-right: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+}
+footer .contact-form textarea {
+	background: #232338;
+	font-family: "Colaborate-Light" sans-serif;;
+	color: rgba(231, 232, 234, 0.2);
+	font-size: 14px;
+	border: 1px solid #000;
+	border-right: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+	height: 106px;
+}
+footer .contact-form .butt {
+	text-align: right;
+	margin-top: 16px;
+}
+footer .contact-form button {
+	font-size: 14px;
+ 	font-family: "Colaborate-Light" sans-serif;
+ 	color: rgb(54, 54, 72);
+ 	margin-right: 17px;
+	padding: 0;
+}
+footer .contact-form button:hover {
+	background: #5675B9;
+	color: #fff;
+	box-shadow: 63px 81px 64px -100px #000000 inset;
+}
+footer .second-row .icons a {
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	background: #454558;
+	text-align: center;
+	padding-top: 5px;
+	margin-right: 18px;
+	margin-top: 19px;
+	box-shadow: 63px 81px 64px -100px #000000 inset;
+}
+footer .second-row .icons a i {
+	color: #6D6D84;
+}
+footer .second-row .icons a:hover i {
+	color: #5675B9;
+	text-shadow: 63px 81px 64px -100px #000000 inset;
+}
+footer h5 {
+  font-size: 14px;
+  font-family: "Colaborate-Light" sans-serif;;
+  color: rgba(255, 255, 255, 0.549);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*************************/
+/**********2nd-page***************/
+/*************************/
+/**********ipad_apps*********/
+/*************************/
+/*************************/
+/*************************/
+
+
+/*************************/
+/**********application*********/
+/*************************/
+.application-form {
+	margin-top: 60px;
+}
+.application-form {
+	background: url('../images/bg.png')  no-repeat center center;
+	background-size: cover; 
+	padding-left: 34px;
+	padding-top: 34px;
+	padding-bottom: 27px;
+	-moz-border-radius-topleft: 15px;
+	-webkit-border-top-left-radius: 15px;
+	 border-top-left-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	-webkit-border-top-right-radius: 15px;
+	border-top-right-radius: 15px;
+
+}
+.application-form .form-head {
+	padding-right: 45px;
+}
+.application-form .form-head h1 {
+  font-size: 27px;
+  font-family: "Colaborate-Light";
+  color: rgb(80, 80, 80);
+  margin-top: 0;
+  text-transform: capitalize;
+}
+.application-form .form-head h2 {
+  font-size: 15px;
+  font-family: "Colaborate-Light";
+  color: rgb(95, 115, 144);
+  margin-top: 5px;
+}
+
+.application-form .form-head .input-group input {
+	  background-color: rgb(252, 252, 252);
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+  -moz-border-radius-topleft: 10px;
+-webkit-border-top-left-radius: 10px;
+ border-top-left-radius: 10x;
+-moz-border-radius-bottomleft: 10px;
+-webkit-border-bottom-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.application-form .form-head .input-group button {
+	-moz-border-radius-topright: 10px;
+-webkit-border-top-right-radius: 10px;
+border-top-right-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-webkit-border-bottom-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.application {
+	background: #E7E8EA;
+	text-align: center;
+	padding-top: 26px;
+}
+.application img {
+	margin: 0 auto;
+}
+
+.application .slider_for3_ipads h4 {
+  font-size: 27px;
+  font-family: "Colaborate-Light";
+  color: rgb(80, 80, 80);
+}
+
+.application .slider_for3_ipads h5 {
+  font-size: 15px;
+  font-family: "Colaborate-Light";
+  color: rgb(95, 115, 144);
+  text-align: center;
+}
+.application .slider_for3_ipads .btn-primary {
+  font-size: 19px;
+  font-family: "Colaborate-Light";
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+.slick-prev {
+	z-index: 1000;
+	margin-left: 50px;
+}
+.slick-next {
+	z-index: 1000;
+	margin-right: 50px;
+}
+
+/*************************/
+/**********drops*********/
+/*************************/
+.drops .butttons {
+	margin-bottom: 42px;
+}
+.drops .butttons .first_tab {
+  font-size: 18px;
+  font-family: "Colaborate-Light" sans-serif;
+  color: rgb(255, 255, 255);
+  background: #3F3F52;
+  padding: 10px 20px 7px 20px;
+  -moz-border-radius-topleft: 10px;
+-webkit-border-top-left-radius: 10px;
+ border-top-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-webkit-border-top-right-radius: 10px;
+border-top-right-radius: 10px;
+margin-right: 6px;
+text-decoration: none;
+display: inline-block;
+}
+.drops .butttons .gray_tab {
+  /*background: url('../images/gray_tab.png') no-repeat center center;*/
+	background: #3F3F52;
+	background-size: cover; 
+	-moz-border-radius-topleft: 10px;
+-webkit-border-top-left-radius: 10px;
+ border-top-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-webkit-border-top-right-radius: 10px;
+border-top-right-radius: 10px;
+padding: 10px 25px 7px 25px;
+font-size: 18px;
+  font-family: "Colaborate-Light" sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+display: inline-block;
+}
+.drops .butttons img {
+	width: 100%;
+}
+.drops .drop_content img {
+	float: left;
+}
+.drops .drop_content h5 {
+  font-size: 27px;
+  font-family: "Colaborate-Light" sans-serif;
+  color: rgb(80, 80, 80);
+  margin-left: 124px;
+}
+.drops .drop_content h6 {
+  font-size: 15px;
+  font-family: "Colaborate-Light" sans-serif;
+  color: rgb(95, 115, 144);
+  margin-left: 124px;
+}
+.drops .drop_content .row {
+	margin-bottom: 63px;
+}
+.drops .drop_content .row:last-child {
+	margin-bottom: 57px;
+}
+
+.drop_content2 {
+	display: none;
+}
+#knopki .first_tab:hover {
+	cursor: pointer;
+}
+#knopki .first_tab.active {
+	background: #D0D1D3;
+	color: #fff;
+}
+	

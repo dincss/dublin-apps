@@ -1,0 +1,40 @@
+/ font-family: "FranklinGothic-Book"; /
+@font-face {
+    font-family: "FranklinGothic-Book";
+    src: url("../fonts/FranklinGothic-Book/FranklinGothic-Book.eot");
+    src: url("../fonts/FranklinGothic-Book/FranklinGothic-Book.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/FranklinGothic-Book/FranklinGothic-Book.woff") format("woff"),
+    url("../fonts/FranklinGothic-Book/FranklinGothic-Book.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/ font-family: "Colaborate-Light"; /
+@font-face {
+    font-family: "Colaborate-Light";
+    src: url("../fonts/Colaborate-Light/Colaborate-Light.eot");
+    src: url("../fonts/Colaborate-Light/Colaborate-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Colaborate-Light/Colaborate-Light.woff") format("woff"),
+    url("../fonts/Colaborate-Light/Colaborate-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/ font-family: "ChunkFivePrint"; /
+@font-face {
+    font-family: "ChunkFivePrint";
+    src: url("../fonts/ChunkFivePrint/ChunkFivePrint.eot");
+    src: url("../fonts/ChunkFivePrint/ChunkFivePrint.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ChunkFivePrint/ChunkFivePrint.woff") format("woff"),
+    url("../fonts/ChunkFivePrint/ChunkFivePrint.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/ font-family: "FlareLightGothic"; /
+@font-face {
+    font-family: "FlareLightGothic";
+    src: url("../fonts/FlareLightGothic/FlareLightGothic.eot");
+    src: url("../fonts/FlareLightGothic/FlareLightGothic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/FlareLightGothic/FlareLightGothic.woff") format("woff"),
+    url("../fonts/FlareLightGothic/FlareLightGothic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
